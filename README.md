@@ -1,4 +1,4 @@
-# Multi-Modal Conditional Autoencoders for Music Genre Clustering
+# Hybrid Music Genre Clustering via Autoencoder and VAE Architectures (An Easy–Medium–Hard Task Framework)
 
 **Course:** Neural Networks (CSE715)  
 **Author:** Kaji Sajjad Hossain 

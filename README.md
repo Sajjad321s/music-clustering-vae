@@ -192,20 +192,6 @@ jupyter notebook notebooks/hard_task.ipynb
 # Output: 6 visualization files
 ```
 
-## 📖 Citation
-
-If you use this code or methodology, please cite:
-
-```bibtex
-@article{mostakim2026music,
-  title={Hybrid Music Genre Clustering via Autoencoder and
-VAE Architectures (An Easy–Medium–Hard Task
-Framework)},
-  author={Sajjad Hossain, Kaji},
-  journal={Neural Networks Course Project},
-  year={2026}
-}
-```
 
 ## 📝 License
 

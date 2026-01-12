@@ -4,9 +4,9 @@
 **Author:** Moin Mostakim  
 **Institution:** Your University  
 
-## 📄 Project Report
 
-📊 **[Read Full Report (PDF)](./report/CSe715_Project.pdf)**
+
+
 
 ## 🎯 Overview
 
@@ -49,7 +49,7 @@ This project implements a progressive architecture approach to unsupervised musi
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/music-clustering-vae.git
+git clone https://github.com/sajjad321s/music-clustering-vae.git
 cd music-clustering-vae
 ```
 
@@ -79,36 +79,7 @@ jupyter notebook
 # Open and run: easy_task.ipynb, medium_simple_working.ipynb, hard_task_working.ipynb
 ```
 
-## 📁 Repository Structure
 
-```
-music-clustering-vae/
-├── README.md                           # This file
-├── requirements.txt                    # Python dependencies
-├── kaggle.json.example                 # Kaggle API template
-│
-├── notebooks/
-│   ├── easy_task.ipynb                 # Basic autoencoder
-│   ├── medium_simple_working.ipynb     # Multi-modal fusion
-│   └── hard_task_working.ipynb         # Conditional multi-modal
-│
-├── results/
-│   ├── easy_tsne_visualization.png
-│   ├── medium_tsne_visualization.png
-│   ├── medium_metrics_comparison.png
-│   ├── hard_tsne_latent_space.png
-│   ├── hard_umap_latent_space.png
-│   ├── hard_cluster_distribution.png
-│   ├── hard_reconstructions.png
-│   ├── hard_metrics_comparison.png
-│   └── hard_all_methods_comparison.png
-│
-├── report/
-│   └── CSe715_Project.pdf              # Full NeurIPS-style report
-│
-└── docs/
-    ├── IMPLEMENTATION.md               # Technical details
-    └── RESULTS.md                      # Detailed results analysis
 ```
 
 ## 🔧 Implementation Details
@@ -128,10 +99,7 @@ music-clustering-vae/
 - **Batch Size:** Full batch (sklearn implementation)
 - **Hardware:** Google Colab CPU (Intel Xeon @ 2.3GHz, 12GB RAM)
 
-### Runtime
-- Easy Task: ~5 minutes
-- Medium Task: ~8 minutes
-- Hard Task: ~15-20 minutes
+
 
 ## 📈 Results Summary
 
@@ -212,14 +180,14 @@ jupyter notebook notebooks/easy_task.ipynb
 
 **Medium Task:**
 ```bash
-jupyter notebook notebooks/medium_simple_working.ipynb
+jupyter notebook notebooks/medium_task.ipynb
 # Runtime: ~8 minutes
 # Output: medium_tsne_visualization.png, medium_metrics_comparison.png
 ```
 
 **Hard Task:**
 ```bash
-jupyter notebook notebooks/hard_task_working.ipynb
+jupyter notebook notebooks/hard_task.ipynb
 # Runtime: ~15-20 minutes
 # Output: 6 visualization files
 ```
@@ -230,8 +198,10 @@ If you use this code or methodology, please cite:
 
 ```bibtex
 @article{mostakim2026music,
-  title={Multi-Modal Conditional Autoencoders for Music Genre Clustering},
-  author={Mostakim, Moin},
+  title={Hybrid Music Genre Clustering via Autoencoder and
+VAE Architectures (An Easy–Medium–Hard Task
+Framework)},
+  author={Sajjad Hossain, Kaji},
   journal={Neural Networks Course Project},
   year={2026}
 }
@@ -247,11 +217,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - Course instructor and teaching assistants
 - scikit-learn, librosa, and sentence-transformers communities
 
-## 📧 Contact
 
-**Moin Mostakim**  
-Email: your.email@university.edu  
-Course: Neural Networks (CSE715)  
 
 ---
 

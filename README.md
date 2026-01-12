@@ -1,8 +1,8 @@
 # Multi-Modal Conditional Autoencoders for Music Genre Clustering
 
 **Course:** Neural Networks (CSE715)  
-**Author:** Moin Mostakim  
-**Institution:** Your University  
+**Author:** Kaji Sajjad Hossain
+**Institution:** BRAC University  
 
 
 
